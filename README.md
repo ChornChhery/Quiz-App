@@ -1,41 +1,50 @@
-📚 Flutter Quiz App
-A sleek, animated multiple-choice Quiz App built with Flutter, using only one file — main.dart. It features category-based quizzes, countdown timers, smooth transitions, and a responsive UI design.
+# 📚 Flutter Quiz App
 
-🚀 Features
-✅ Choose from 8 categories (Math, Science, History, etc.)
+A sleek, category-based multiple-choice Quiz App built entirely in a **single `main.dart` file** using Flutter. This app features animated transitions, a countdown timer, score tracking, and an elegant UI design — perfect for learning or as a starter Flutter project.
 
-🧠 Randomly shuffled questions per quiz
+---
 
-⏱ Countdown timer per question (15 seconds)
+## 🚀 Features
 
-✅ Immediate answer feedback with highlighting
+- 🎯 Choose from 8 quiz categories:
+  - Geography, Science, Math, History, Art, Literature, Sports, Technology
+- 🔄 Randomized questions each session
+- ⏳ 15-second countdown timer per question
+- ✅ Instant feedback on correct/incorrect answers
+- 📈 Final score summary with motivational feedback
+- 🎨 Smooth UI animations and transitions
+- 🧾 **All code in one file** (`main.dart`) for simplicity
 
-📊 Final score with performance feedback
+---
 
-🎨 Animated transitions and themed UI
+## 🖼 Preview
 
-🧾 Entire app in a single main.dart file
+![alt text](image.png)
 
-🖼 Screenshots
-Add screenshots here if desired (e.g., category screen, quiz in progress, results).
+---
+
+## 🛠 Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed ([Install Guide](https://flutter.dev/docs/get-started/install))
+- Any IDE like VS Code, Android Studio, or IntelliJ
+- An emulator or physical device
+
+### Run the App
+
+```bash
+git clone https://github.com/ChornChhery/Quiz-App.git
+cd your-repo-name
+flutter pub get
+flutter run
 
 📁 File Structure
-bash
-Copy code
 📂 quiz_app/
-  └── main.dart
-🛠 Getting Started
-Prerequisites
-Flutter SDK installed (Install Flutter)
+└── main.dart  # All app logic and UI in one file
 
-A working emulator or physical device
-
-Run the App
-bash
-Copy code
-flutter run
 📦 Dependencies
-This app uses only core Flutter libraries:
+Only core Flutter & Dart libraries used:
 
 material.dart
 
@@ -43,19 +52,32 @@ dart:math
 
 dart:async
 
-No external packages required.
+No third-party packages required.
 
 ✨ Customization
-Want to expand the app?
+Want to expand this app?
 
-Add more categories or questions inside _allQuestions.
+Add more questions in _allQuestions
 
-Hook into an API for dynamic quiz content.
+Add a scoring history or leaderboard
 
-Add persistent score tracking with shared_preferences or local storage.
+Fetch questions from a remote API or database
+
+Use shared_preferences for persistent storage
 
 🧑‍💻 Author
-Built by Chhery Chorn – feel free to customize and expand this project!
+Made with ❤️ by [Chhery Chorn]
 
 📄 License
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License.
+
+Feel free to fork and modify it for your own quiz apps!
+
+
+---
+
+Just replace:
+- `https://github.com/ChornChhery/Quiz-App.git` with your actual GitHub repo link
+- `Chhery Chorn` with your name or GitHub username
+
+Let me know if you want a fancier version with badges (like build status, Flutter version, etc.) or GitHub Actions setup!
