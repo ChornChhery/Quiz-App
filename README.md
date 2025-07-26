@@ -1,72 +1,61 @@
-# 📚 Flutter Quiz App
+📚 Flutter Quiz App
+A sleek, animated multiple-choice Quiz App built with Flutter, using only one file — main.dart. It features category-based quizzes, countdown timers, smooth transitions, and a responsive UI design.
 
-A simple one-page Flutter application that lets users take a multiple-choice quiz and shows their final score. All questions are stored locally in the `main.dart` file. No backend, no database — just clean Dart code and Flutter UI.
+🚀 Features
+✅ Choose from 8 categories (Math, Science, History, etc.)
 
----
+🧠 Randomly shuffled questions per quiz
 
-## 🚀 Features
+⏱ Countdown timer per question (15 seconds)
 
-- 🧠 5 multiple-choice quiz questions
-- ✅ Instant answer checking and score tracking
-- 📊 Final score summary at the end
-- 🔁 Option to restart the quiz
-- 💻 Built using only `main.dart` (no additional files)
-- 📡 No internet or database required
+✅ Immediate answer feedback with highlighting
 
----
+📊 Final score with performance feedback
 
-## 🛠️ Tech Stack
+🎨 Animated transitions and themed UI
 
-- **Flutter** (SDK)
-- **Dart** (Language)
-- Only core Flutter widgets used (`setState`, `List`, `Column`, etc.)
+🧾 Entire app in a single main.dart file
 
----
-
-## 📸 Screenshots
-
-| Quiz Question | Score Screen |
-|---------------|--------------|
-| ![quiz](https://via.placeholder.com/200x400?text=Quiz+Question) | ![score](https://via.placeholder.com/200x400?text=Final+Score) |
-
-*(Replace with real screenshots later)*
-
----
-
-## 🔧 How to Run
-
-1. Make sure you have Flutter installed. [Install Flutter](https://docs.flutter.dev/get-started/install)
-2. Clone or download this repository.
-3. Replace your `lib/main.dart` with the provided code.
-4. Run the app:
-   ```bash
-   flutter run
+🖼 Screenshots
+Add screenshots here if desired (e.g., category screen, quiz in progress, results).
 
 📁 File Structure
-css
+bash
 Copy code
-lib/
-└── main.dart    <-- All app logic and UI in one file
-📌 Customization Ideas
-Add more questions
+📂 quiz_app/
+  └── main.dart
+🛠 Getting Started
+Prerequisites
+Flutter SDK installed (Install Flutter)
 
-Add question categories
+A working emulator or physical device
 
-Add a countdown timer per question
-
-Randomize question order
-
-Use animations for feedback
-
-📜 License
-This project is open-source and free to use for learning purposes.
-
-👨‍💻 Author
-Created by [Your Name] — built for practice, fun, and Flutter fluency!
-
-yaml
+Run the App
+bash
 Copy code
+flutter run
+📦 Dependencies
+This app uses only core Flutter libraries:
 
----
+material.dart
 
-Let me know if you'd like a **GitHub-ready version** or if you want me to inclu
+dart:math
+
+dart:async
+
+No external packages required.
+
+✨ Customization
+Want to expand the app?
+
+Add more categories or questions inside _allQuestions.
+
+Hook into an API for dynamic quiz content.
+
+Add persistent score tracking with shared_preferences or local storage.
+
+🧑‍💻 Author
+Built by Chhery Chorn – feel free to customize and expand this project!
+
+📄 License
+This project is open-source and available under the MIT License.
