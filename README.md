@@ -35,14 +35,15 @@ A sleek, category-based multiple-choice Quiz App built entirely in a **single `m
 
 ```bash
 git clone https://github.com/ChornChhery/Quiz-App.git
-cd your-repo-name
+cd Quiz-App
 flutter pub get
 flutter run
 
 📁 File Structure
+bash
+Copy code
 📂 quiz_app/
 └── main.dart  # All app logic and UI in one file
-
 📦 Dependencies
 Only core Flutter & Dart libraries used:
 
@@ -74,10 +75,3 @@ This project is licensed under the MIT License.
 Feel free to fork and modify it for your own quiz apps!
 
 
----
-
-Just replace:
-- `https://github.com/ChornChhery/Quiz-App.git` with your actual GitHub repo link
-- `Chhery Chorn` with your name or GitHub username
-
-Let me know if you want a fancier version with badges (like build status, Flutter version, etc.) or GitHub Actions setup!
