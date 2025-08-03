@@ -147,7 +147,7 @@ Center
 
 
 🧑‍💻 Author
-Made with ❤️ by [Chhery Chorn]
+Made with ❤️ by Chhery Chorn
 
 📄 License
 This project is licensed under the Chhery Chorn.
